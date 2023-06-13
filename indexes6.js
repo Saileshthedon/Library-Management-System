@@ -17,6 +17,7 @@ class Display {
                             <td>${book.name}</td>
                             <td>${book.author}</td>
                             <td>${book.type}</td>
+                            <td>${book.cost}</td>
                         </tr>`;
         tableBody.innerHTML += uiString;
     }
