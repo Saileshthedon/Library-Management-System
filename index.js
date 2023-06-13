@@ -67,13 +67,13 @@ libraryForm.addEventListener('submit', libraryFormSubmit);
 function libraryFormSubmit(e) {
     console.log('YOu have submitted library form');
     let name = document.getElementById('bookName').value;
-    let author = document.getElementById('author').value;
-    let cost = document.getElementById('cost').value;
+    let author = document.getElementById('author').value;    
     let type;
     let fiction = document.getElementById('fiction');
     let programming = document.getElementById('programming');
     let cooking = document.getElementById('cooking');
     let science = document.getElementById('science');
+    let cost = document.getElementById('cost').value;
 
 
     if (fiction.checked) {
