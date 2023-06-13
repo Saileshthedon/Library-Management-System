@@ -86,7 +86,7 @@ function libraryFormSubmit(e) {
     }
     
 
-    let book = new Book(name, author, type,cost);
+    let book = new Book(name, author, type, cost);
     console.log(book);
 
     let display = new Display();
